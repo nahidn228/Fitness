@@ -63,5 +63,21 @@ Large Device: above 993 px  */
     width: 100%;
     margin-bottom: 20px;
   }
-  
+  .training-section {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .training-title {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  .training-row1,
+  .training-row2 {
+    grid-template-columns: 1fr 1fr 0fr;
+  }
+  #training-img1 {
+    display: hidden;
+  }
 }
