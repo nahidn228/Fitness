@@ -166,10 +166,45 @@ body {
 .txt-350 {
   font-size: 1.3rem;
   font-weight: 900;
- 
 }
 .video-tutorial {
   color: rgba(239, 237, 232, 0.65);
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+/* Change Your Habits style start */
+.habit-section {
+  margin: 100px 0;
+}
+.habit-text {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.habit-title {
+  font-size: 2.7rem;
+  font-weight: 900;
+}
+.habit-subtitle {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+.habit-images {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.habit-img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.habit-img-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.habit-img-subtitle {
+  color: rgba(255, 255, 255, 0.5);
   font-size: 0.8rem;
   font-weight: 400;
 }
