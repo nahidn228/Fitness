@@ -49,4 +49,19 @@ Large Device: above 993 px  */
     grid-template-columns: repeat(1, 1fr);
     gap: 30px;
   }
+  .run-section {
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  .run-section-title {
+    font-size: 2.3rem;
+  }
+  #run-section-btn {
+    font-size: 0.8rem;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
 }
