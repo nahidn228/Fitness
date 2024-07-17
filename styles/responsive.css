@@ -26,4 +26,17 @@ Large Device: above 993 px  */
   #banner-btn {
     margin-right: 20px;
   }
+  .tutorial {
+    width: 180px;
+    top: 45%;
+    left: 0%;
+  }
+  .tutorial-1 {
+    width: 150px;
+    top: 10%;
+    left: 60%;
+  }
+  #circle{
+    display: none;
+  }
 }

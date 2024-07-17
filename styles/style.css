@@ -115,3 +115,61 @@ body {
 #banner-btn {
   margin-right: 40px;
 }
+.banner-images {
+  position: relative;
+}
+
+.tutorial {
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+  height: 90px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  background-color: rgba(48, 48, 48, 0.54);
+  position: absolute;
+  top: 70%;
+  left: -40%;
+}
+.tutorial-1 {
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+  height: 90px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  background-color: rgba(48, 48, 48, 0.54);
+  position: absolute;
+  top: 28%;
+  left: 70%;
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(230, 83, 60);
+  border-radius: 50%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.tutorial-text p {
+  background-color: rgba(48, 48, 48, 0.54);
+}
+.fa-solid {
+  background-color: rgba(48, 48, 48, 0);
+}
+.txt-350 {
+  font-size: 1.3rem;
+  font-weight: 900;
+ 
+}
+.video-tutorial {
+  color: rgba(239, 237, 232, 0.65);
+  font-size: 0.8rem;
+  font-weight: 400;
+}
