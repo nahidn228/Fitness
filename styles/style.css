@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+CU:wght@100..400&display=swap");
+
 .inter-fonts {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -7,17 +9,25 @@
   font-style: normal;
   font-variation-settings: "slnt" 0;
 }
+.playwrite-cu-font {
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
 
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  background-color: rgb(28, 27, 27);
+  /* background-color: rgb(28, 27, 27); */
+  background-color: rgb(20, 20, 20);
 }
 body {
   max-width: 1000px;
   margin: 0 auto;
   margin-top: 50px;
+  color: rgb(255, 255, 255);
 }
 
 /* Shared styles */
@@ -38,7 +48,7 @@ body {
 .primary-btn2 {
   border: none;
   align-items: center;
-  padding: 8px 20px;
+  padding: 10px 20px;
   /* border: 1px solid rgba(245, 245, 245, 0.331); */
   border-radius: 50px;
   background-color: none;
@@ -47,16 +57,17 @@ body {
   font-weight: 600;
   color: rgb(255, 255, 255);
 }
+.primary-btn2-border {
+  border: 1px solid rgba(245, 245, 245, 0.737);
+}
 
 /* Navbar styles */
-
 .navbar {
   width: 100%;
   height: auto;
   justify-content: space-between;
   margin-bottom: 30px;
 }
-
 .brand-name {
   color: rgb(230, 83, 60);
   font-family: Inter;
@@ -77,4 +88,30 @@ body {
   font-size: 2.05rem;
   font-weight: 600;
   display: none;
+}
+
+/* This is Banner style */
+
+.banner-section {
+  align-items: center;
+  justify-content: space-between;
+  background-color: linear-gradient(
+    90deg,
+    rgb(90, 89, 89),
+    rgba(88, 81, 81, 0.087) 100%
+  );
+}
+.banner-title {
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.banner-subtitle {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+#banner-btn {
+  margin-right: 40px;
 }

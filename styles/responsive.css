@@ -4,7 +4,7 @@ Large Device: above 993 px  */
 
 /* Small device: upto 576 px */
 @media screen and (max-width: 576px) {
-  .navbar{
+  .navbar {
     width: 95%;
     margin: 0 auto;
   }
@@ -13,5 +13,17 @@ Large Device: above 993 px  */
   }
   .ham-burgeer {
     display: block;
+  }
+  .banner-section {
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .banner-title {
+    font-size: 3rem;
+    margin-top: 50px;
+  }
+  #banner-btn {
+    margin-right: 20px;
   }
 }
