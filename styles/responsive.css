@@ -88,7 +88,8 @@ Large Device: above 993 px  */
   .bmi-calculator-title {
     font-size: 2rem;
   }
-  .bmi-calculator-subtitle br {
+  .bmi-calculator-subtitle br,
+  .team-section-subtitle br {
     display: none;
   }
   .bmi-calculator-form {
@@ -118,5 +119,19 @@ Large Device: above 993 px  */
   }
   #calculate-btn {
     width: 70%;
+  }
+  .team-section {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .team-section-title {
+    font-size: 1.8rem;
+  }
+  .team-section-subtitle {
+    font-size: 0.5rem;
+  }
+  .team-section-card {
+    grid-template-columns: repeat(1, 1fr);
+ 
   }
 }
