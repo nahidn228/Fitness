@@ -20,14 +20,13 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  /* background-color: rgb(28, 27, 27); */
-  background: rgb(20, 20, 20);
 }
 body {
   max-width: 1000px;
   margin: 0 auto;
   margin-top: 50px;
   color: rgb(255, 255, 255);
+  background-color: rgb(20, 20, 20);
 }
 
 /* Shared styles */
@@ -56,6 +55,7 @@ body {
   font-size: 1.05rem;
   font-weight: 600;
   color: rgb(255, 255, 255);
+  background-color: rgb(20, 20, 20);
 }
 .primary-btn2-border {
   border: 1px solid rgba(245, 245, 245, 0.737);
@@ -142,7 +142,7 @@ body {
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
-  background-color: rgba(48, 48, 48, 0.54);
+  background-color: rgba(48, 48, 48, 0.424);
   position: absolute;
   top: 28%;
   left: 70%;
@@ -157,9 +157,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.tutorial-text p {
-  background-color: rgba(48, 48, 48, 0.54);
-}
+
 .fa-solid {
   background-color: rgba(48, 48, 48, 0);
 }
@@ -319,9 +317,7 @@ body {
   align-items: center;
   justify-content: center;
 
-  margin: 50px 0;
-}
-.bmi-calculator-text {
+  margin: 50px auto;
 }
 .bmi-calculator-title {
   font-size: 2.8rem;
@@ -331,4 +327,78 @@ body {
   font-size: 0.8rem;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.5);
+}
+
+/* BMI Table */
+.bmi-calculator-text {
+  margin: 80px 0;
+}
+.bmi-calculator-form {
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+  background-color: #222222;
+  padding: 50px 10px;
+  border-radius: 20px;
+  padding-left: 60px;
+}
+.calculator-chart,
+.calculate-bmi-form {
+  width: 50%;
+}
+
+.calculator-chart-title {
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding-bottom: 50px;
+}
+table {
+  max-width: 300px;
+  height: auto;
+}
+th {
+  font-size: 1rem;
+  font-weight: 500;
+}
+td {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+table,
+th,
+td {
+  border: 1px solid rgb(71, 68, 68);
+  border-collapse: collapse;
+  padding: 5px 10px;
+}
+
+.bmi-form-title {
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding: 10px 0;
+}
+
+#height,
+#weight,
+#age,
+#sex,
+#select {
+  width: 200px;
+  margin-top: 10px;
+  padding: 12px 40px 12px 20px;
+  border: 0;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-weight: 400;
+}
+#select {
+  width: 400px;
+}
+#calculate-btn {
+  margin-top: 30px;
+  padding: 16px 40px 16px 40px;
 }

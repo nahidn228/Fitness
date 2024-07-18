@@ -84,10 +84,39 @@ Large Device: above 993 px  */
   #training-img1 {
     display: hidden;
   }
+
   .bmi-calculator-title {
     font-size: 2rem;
   }
   .bmi-calculator-subtitle br {
     display: none;
+  }
+  .bmi-calculator-form {
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+    margin: 0;
+    padding: 35px 0;
+  }
+  .calculator-chart,
+  .calculate-bmi-form {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 35px;
+  }
+  .calculator-chart-title {
+    font-size: 1.5rem;
+    white-space: nowrap;
+  }
+  #height,
+  #weight,
+  #age,
+  #sex,
+  #select {
+    width: 100%;
+  }
+  #calculate-btn {
+    width: 70%;
   }
 }
