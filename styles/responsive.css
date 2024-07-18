@@ -4,6 +4,10 @@ Large Device: above 993 px  */
 
 /* Small device: upto 576 px */
 @media screen and (max-width: 576px) {
+  body {
+    max-width: 95%;
+    margin: 0 auto;
+  }
   .navbar {
     width: 95%;
     margin: 0 auto;
@@ -79,5 +83,11 @@ Large Device: above 993 px  */
   }
   #training-img1 {
     display: hidden;
+  }
+  .bmi-calculator-title {
+    font-size: 2rem;
+  }
+  .bmi-calculator-subtitle br {
+    display: none;
   }
 }
