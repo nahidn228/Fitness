@@ -161,10 +161,6 @@ body {
   align-items: center;
 }
 
-.fa-solid {
-  /* color: aliceblue; */
-  background-color: rgb(250, 249, 249);
-}
 .txt-350 {
   font-size: 1.3rem;
   font-weight: 900;
