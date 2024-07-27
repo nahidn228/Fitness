@@ -13,6 +13,9 @@ Large Device: above 993 px  */
     margin: 0 auto;
     margin-bottom: 10px;
   }
+  .brand-name {
+    font-size: 2rem;
+  }
   .navbar-btn {
     display: none;
   }
@@ -132,6 +135,37 @@ Large Device: above 993 px  */
   }
   .team-section-card {
     grid-template-columns: repeat(1, 1fr);
- 
+  }
+  .social-section {
+    height: 150px;
+    margin-top: 30px;
+  }
+  .youtube-title,
+  .update-text {
+    font-size: 1.5rem;
+  }
+  .youtube-subtitle {
+    font-size: 0.8rem;
+  }
+  .subscribe-btn {
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    opacity: 80%;
+  }
+
+  .footer-section {
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    align-items: start;
+    justify-items: left;
+    padding: 0px;
+    margin-top: 50px;
+    padding-top: 30px;
+  }
+  .hr-line {
+    margin-top: 50px;
   }
 }

@@ -43,6 +43,7 @@ body {
   font-size: 1.05rem;
   font-weight: 600;
   color: rgb(255, 255, 255);
+  cursor: pointer;
 }
 .primary-btn2 {
   border: none;
@@ -56,6 +57,7 @@ body {
   font-weight: 600;
   color: rgb(255, 255, 255);
   background-color: rgb(20, 20, 20);
+  cursor: pointer;
 }
 .primary-btn2-border {
   border: 1px solid rgba(245, 245, 245, 0.737);
@@ -65,13 +67,13 @@ body {
 .navbar {
   width: 100%;
   height: auto;
+  align-items: center;
   justify-content: space-between;
   margin-bottom: 30px;
 }
 .brand-name {
   color: rgb(230, 83, 60);
-  font-family: Inter;
-  font-size: 2.05rem;
+  font-size: 2.5rem;
   font-weight: 800;
 }
 .navbar-btn {
@@ -100,6 +102,7 @@ body {
     rgb(90, 89, 89),
     rgba(88, 81, 81, 0.087) 100%
   );
+  margin-bottom: 10px;
 }
 .banner-title {
   font-size: 4rem;
@@ -159,7 +162,8 @@ body {
 }
 
 .fa-solid {
-  background-color: rgba(48, 48, 48, 0);
+  /* color: aliceblue; */
+  background-color: rgb(250, 249, 249);
 }
 .txt-350 {
   font-size: 1.3rem;
@@ -216,6 +220,10 @@ body {
   padding: 20px 30px 20px 50px;
   border-radius: 20px;
   margin-bottom: 50px;
+}
+.run-section:hover {
+  box-shadow: 0px 10px 20px 0px rgba(154, 146, 146, 0.632);
+  transition: 2s;
 }
 .run-section-text,
 .run-section-img {
@@ -316,7 +324,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   margin: 50px auto;
 }
 .bmi-calculator-title {
@@ -342,6 +349,11 @@ body {
   border-radius: 20px;
   padding-left: 60px;
 }
+.bmi-calculator-form:hover {
+  box-shadow: 0px 10px 20px 0px rgba(154, 146, 146, 0.632);
+  transition: 2s;
+}
+
 .calculator-chart,
 .calculate-bmi-form {
   width: 50%;
@@ -437,7 +449,6 @@ td {
   width: 100%;
   height: 100%;
   border-radius: 18px;
-
 }
 .team-card-text {
   position: absolute;
@@ -452,4 +463,117 @@ td {
   font-size: 1rem;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.5);
+}
+
+/* social Media Section (Extra section)  */
+.social-section {
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 50px;
+  padding: 10px 30px;
+  height: 200px;
+  border: 2px solid rgba(98, 96, 96, 0.257);
+  background-color: #222222cc;
+  border-radius: 10px;
+}
+.social-section:hover {
+  box-shadow: 0px 10px 20px 0px rgba(154, 146, 146, 0.632);
+  transition: 2s;
+}
+.youtube-title {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+.youtube-subtitle {
+  font-size: 1rem;
+  color: rgba(154, 146, 146, 0.632);
+}
+
+/* Get my update Section (Extra section) */
+.update-section {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.update-text {
+  font-size: 2rem;
+  font-weight: 900;
+}
+.subscribe-box {
+  width: 70%;
+  margin: 0 auto;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  background-color: #222222c8;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.subscribe-box:hover {
+  box-shadow: 0px 10px 20px 0px rgba(154, 146, 146, 0.632);
+  transition: 2s;
+}
+.subscribe-box input {
+  padding-left: 10px;
+  height: 34px;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+}
+.subscribe-btn {
+  height: 35px;
+  border: none;
+  align-items: center;
+  padding: 8px 20px;
+  border-radius: 5px 20px 20px 5px;
+  background-color: rgb(230, 83, 60);
+  /* font style */
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+/* Footer style */
+.footer-container {
+  background-color: #222222;
+  border-radius: 18px;
+  padding-bottom: 50px;
+  margin-bottom: 10px;
+}
+.footer-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 60px 50px;
+  padding-left: 90px;
+  align-items: center;
+  justify-items: center;
+}
+.brand-subtitle {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.footer-get-started a {
+  display: block;
+  margin-top: 15px;
+}
+
+.get-started-links {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+.hr-line {
+  width: 80%;
+  margin: 0 auto;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.copyright {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-top: 30px;
 }
