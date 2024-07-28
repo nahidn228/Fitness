@@ -169,3 +169,68 @@ Large Device: above 993 px  */
     margin-top: 50px;
   }
 }
+
+/* Medium Device: 576px to 992 px  */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  body {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+  .navbar {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  .banner-section {
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .run-section-text{
+    padding: 5px;
+  }
+  .habit-images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .bmi-calculator-form {
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+    margin: 0;
+    padding: 35px 0;
+  }
+  .bmi-form-title {
+    margin-top: 50px;
+  }
+  .calculate-bmi-form {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 35px;
+  }
+  #height,
+  #weight,
+  #age,
+  #sex {
+    width: 49%;
+  }
+  #select {
+    width: 99%;
+  }
+  .footer-section {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    gap: 30px;
+    justify-items: baseline;
+
+  }
+  .footer-brand {
+    width: 70%;
+  }
+  .footer-get-started{
+  width: 40%;
+  }
+}
