@@ -96,29 +96,33 @@ Large Device: above 993 px  */
     display: none;
   }
   .bmi-calculator-form {
-    flex-direction: column;
-    width: 95%;
-    margin: 0 auto;
-    padding: 0;
-    margin: 0;
-    padding: 35px 0;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+  .bmi-form form {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+  #activity-factor {
+    grid-column: 1 / span 1;
   }
   .calculator-chart,
   .calculate-bmi-form {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    padding-bottom: 35px;
+    margin-top: 5px;
+  }
+  .bmi-calculator {
+    width: 100%;
+    margin: 0 auto;
   }
   .calculator-chart-title {
     font-size: 1.5rem;
     white-space: nowrap;
   }
-  #height,
-  #weight,
-  #age,
-  #sex,
-  #select {
-    width: 100%;
+  .bmi-form form {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
   }
   #calculate-btn {
     width: 70%;
@@ -188,49 +192,38 @@ Large Device: above 993 px  */
     width: 95%;
     margin: 0 auto;
   }
-  .run-section-text{
+  .run-section-text {
     padding: 5px;
   }
   .habit-images {
     grid-template-columns: repeat(2, 1fr);
   }
   .bmi-calculator-form {
-    flex-direction: column;
-    width: 95%;
-    margin: 0 auto;
-    padding: 0;
-    margin: 0;
-    padding: 35px 0;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    gap: 30px;
   }
+
   .bmi-form-title {
     margin-top: 50px;
   }
+  .calculator-chart,
   .calculate-bmi-form {
-    width: 90%;
-    margin: 0 auto;
-    padding-bottom: 35px;
+    width: 100%;
+    
   }
-  #height,
-  #weight,
-  #age,
-  #sex {
-    width: 49%;
-  }
-  #select {
-    width: 99%;
-  }
+
   .footer-section {
     display: flex;
     flex-wrap: wrap;
     /* flex-direction: column; */
     gap: 30px;
     justify-items: baseline;
-
   }
   .footer-brand {
     width: 70%;
   }
-  .footer-get-started{
-  width: 40%;
+  .footer-get-started {
+    width: 40%;
   }
 }

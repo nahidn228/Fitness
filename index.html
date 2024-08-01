@@ -169,11 +169,11 @@
 <h3 class="bmi-calculator-title">BMI Calculator</h3>
 <p class="bmi-calculator-subtitle">We believe fitness should be accessible to everyone, everywhere, regardless of income or <br> access to a gym.</p>
         </div>
-        <div class="bmi-calculator-form display-flex ">
+        <div class="bmi-calculator-form">
 <!-- BMI Calculator Chart -->
  <div class="calculator-chart">
   <h3 class="calculator-chart-title">BMI Calculator Chart</h3>
-  <table style="width:100%">
+  <table style="width: 100%">
     <tr>
       <th>BMI</th>
       <th>Weight Status</th>
@@ -201,7 +201,7 @@
     <h3 class="bmi-form-title">Calculate your BMI</h3>
     <p class="bmi-calculator-subtitle">We believe fitness should be accessible to everyone, everywhere, <br> regardless of income or access to a gym. </p>
     <div class="bmi-form">
-      <form action="form">
+      <form action="form" id="bmi-form">
         <input type="text" name="Height/cm" id="height" placeholder="Height/cm">
       <input type="text" name="Weight/kg" id="weight" placeholder="Weight/kg">
       <input type="text" name="Age" id="age" placeholder="Age">
@@ -211,7 +211,7 @@
         <option value="Women">Women</option>
         <option value="Other">Other</option>
       </select>
-      <select id="select" name="select" placeholder="Select an activity factor">
+      <select id="activity-factor" name="select" placeholder="Select an activity factor">
         <option value="Men">Select an activity factor</option>
         <option value="Women"></option>
         <option value="Other"></option>
