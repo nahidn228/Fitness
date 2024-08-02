@@ -280,9 +280,11 @@ body {
   background-color: rgba(6, 255, 210, 0.5);
 }
 .row1-img2 {
+  position: relative;
   background-color: rgba(255, 0, 0, 0.3);
 }
 .row1-img3 {
+  position: relative;
   background-color: rgba(0, 0, 0, 0.5);
 }
 .row1-img1-text {
@@ -290,6 +292,7 @@ body {
   top: 70%;
   background-color: rgba(30, 31, 30, 0.5);
   opacity: 0.8;
+  margin-left: 15px;
 }
 
 .training-row2 {
@@ -306,12 +309,15 @@ body {
 }
 
 .row2-img1 {
+  position: relative;
   background-color: rgba(0, 0, 0, 0.5);
 }
 .row2-img2 {
+  position: relative;
   background-color: rgba(66, 255, 0, 0.3);
 }
 .row2-img3 {
+  position: relative;
   background-color: rgba(0, 71, 255, 0.3);
 }
 
